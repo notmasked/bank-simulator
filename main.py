@@ -1,6 +1,6 @@
 import hashlib
 accounts = []
-account_file = "Bank Simulator/account data/accounts.txt"
+account_file = "account data/accounts.txt"
 class Account:
     def __init__(self, number, name, pin, balance):
         self.num = int(number)
