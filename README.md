@@ -1,17 +1,17 @@
 # Bank Simulator
 
-A basic Python made banking system.
+A simple command-line banking system written in Python.
 
-## Characteristics
+## Features
 
-* Create a new account
-* Enter your PIN and account number to log in.
-* Make a deposit
-* Take out cash
-* Move funds between accounts or users
-* Verify your account balance.
-* A text file is used to store account info.
-* SHA-256 hashing is used to save PINs 
+* Register
+* Login using account number and PIN
+* Deposit money
+* Withdraw money
+* Transfer money between accounts
+* Check account balance
+* Account data is saved in a text file
+* PINs are stored using SHA-256 hashing
 
 ## How to Run
 
