@@ -1,6 +1,7 @@
 import hashlib
+from pathlib import Path
 accounts = []
-account_file = "account data/accounts.txt"
+account_file = Path("account data")/"accounts.txt"
 class Account:
     def __init__(self, number, name, pin, balance):
         self.num = int(number)
